@@ -8,65 +8,55 @@ body {
 }
 
 h1 {
-    font-size: 300px;
+    font-size: 100px;
     text-decoration: underline;
     background-color: rgb(156, 117, 58);
 }
 
 h2 {
-    font-size: 150px;
-    margin: 150px;
+    font-size: 75px;
+    margin: 55px;
 }
 
 .container {
     display: flex;
-    width: 2300px;
+    width: 1500px;
     margin: 50px auto;
     justify-content: space-between;
 }
 
-.player1scoredBoard {
-    font-size: 130px;
-    padding: 20px;
-    margin-bottom: 50px;
+.player1scoredBoard, 
+.player2scoredBoard  {
+    font-size: 50px;
+    padding: 5px;
 }
 
-.player2scoredBoard {
-    font-size: 130px;
-    padding: 20px; 
-    margin-bottom: 50px;
-}
-
-.player1Dice {
-    font-size: 100px;
-    text-align: center;
-    background-color: rgb(156, 117, 58);
-    padding: 90px 120px ;
-    margin-left: 200px;
-}
-
+.player1Dice, 
 .player2Dice {
     font-size: 100px;
     text-align: center;
     background-color: rgb(156, 117, 58);
-    padding: 90px 120px ;
-    margin-right: 200px;
+    padding: 45px 60px ;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 #diceImage {
     margin-top: 150px;
+    max-width: 30%;
+    margin: 0 auto;
     display: none;
 }
 
 button {
     background-color: rgb(212, 159, 79);
-    font-size: 100px;
+    font-size: 50px;
     padding: 35px 55px;
     border-radius: 105px;  
 }
 
 .rollDice {
-    margin-top: 120px;
+    margin-top: 10px;
 }
 
 .reset {
@@ -74,5 +64,7 @@ button {
 }
 
 .play {
-    font-size: 200px;
+    font-size: 100px;
 }
+
+
